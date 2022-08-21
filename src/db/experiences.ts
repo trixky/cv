@@ -1,5 +1,6 @@
 import type Experience from '$lib/experience';
 import type Skill from '$lib/skill';
+import skills from '$db/skills';
 
 export default <Experience[]>[
 	{

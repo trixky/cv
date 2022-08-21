@@ -1,6 +1,7 @@
 <!-- ========================= SCRIPT -->
 <script lang="ts">
 	import type Skill from '$lib/skill';
+	import ThumbnailContainer from '$components/thumbnails/container.svelte';
 
 	export let company: string;
 	export let location: string;
@@ -9,7 +10,7 @@
 </script>
 
 <!-- ========================= HTML -->
-<div class="bg-black bg-opacity-70 w-56 p-4 pt-3 m-2 rounded-md @apply shadow-black shadow-md">
+<ThumbnailContainer>
 	<div class="mb-4">
 		<a href={link} target="_blank">
 			<h3>{company}</h3>
@@ -20,11 +21,15 @@
 	</div>
 	<p>asdfasdfasfdsdf sdf sdf sf sdfs f sfd sdf sdf sf sdfs df sdf sdfs dfs dfs df sdf</p>
 	<ul class="mt-3">
-		{#each skills as skill}
-			<p class="italic text-neutral-400 inline-block text-sm px-1">#{skill.name}</p>
+		{#each skills as skill, index (index)}
+			<li class="inline-block">
+				<p class="italic text-neutral-400 inline-block text-sm">
+					#{skill.name}&nbsp&nbsp
+				</p>
+			</li>
 		{/each}
 	</ul>
-</div>
+</ThumbnailContainer>
 
 <!-- ========================= CSS -->
 <style lang="postcss">
