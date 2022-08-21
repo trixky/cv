@@ -6,7 +6,7 @@
 
 <!-- ========================= HTML -->
 <Header />
-<main class="w-2/3 m-auto">
+<main class="w-[80%] m-auto min-w-[270px]">
 	<slot />
 </main>
 

@@ -7,7 +7,7 @@
 <section class="my-5">
 	<h2 class="pb-3">{title}</h2>
 	<hr />
-	<div class="pt-3 flex">
+	<div class="pt-3 flex flex-wrap">
 		<slot />
 	</div>
 </section>
