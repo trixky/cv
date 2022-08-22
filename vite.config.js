@@ -8,15 +8,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess({
 		postcss: true
-	}),
-	resolve: {
-		alias: {
-			$components: 'src/components',
-			$utils: 'src/utils',
-			$lib: 'src/lib',
-			$db: 'src/db'
-		}
-	}
+	})
 };
 
 export default config;

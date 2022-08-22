@@ -6,10 +6,6 @@
 
 <!-- ========================= HTML -->
 <Header />
-<main class="w-[80%] m-auto min-w-[270px]">
+<main class="m-auto min-w-[270px] w-[var(--main-width)]">
 	<slot />
 </main>
-
-<!-- ========================= CSS -->
-<style lang="postcss">
-</style>

@@ -18,13 +18,13 @@
 					<p class="inline-block hover:underline cursor-pointer">
 						{skill.name}
 					</p>
-					<p class="inline-block text-neutral-400">{skill.note}/10</p>
+					<p class="inline-block">
+						{new Array(skill.note).fill('*').join('')}<span class="opacity-20"
+							>{new Array(5 - skill.note).fill('*').join('')}</span
+						>
+					</p>
 				</li>
 			{/if}
 		{/each}
 	</ul>
 </ThumbnailContainer>
-
-<!-- ========================= CSS -->
-<style lang="postcss">
-</style>
