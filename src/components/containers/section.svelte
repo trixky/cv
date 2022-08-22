@@ -4,13 +4,13 @@
 </script>
 
 <!-- ========================= HTML -->
-<section class="relative my-2 py-1">
+<section class="relative max-w-[300px] xs:max-w-none m-auto">
 	<div class="px-[var(--thumbnail-margin-double)]">
 		<h2>{title}</h2>
 		<hr class="mt-3" />
 	</div>
 	<div
-		class="px-[var(--thumbnail-margin)] pt-6 flex items-start flex-wrap overflow-x-auto overflow-y-visible border-x-0 pb-[15px]"
+		class="px-[var(--thumbnail-margin)] flex flex-col content-center xs:flex-row items-start flex-wrap border-x-0 py-[15px]"
 	>
 		<slot />
 	</div>

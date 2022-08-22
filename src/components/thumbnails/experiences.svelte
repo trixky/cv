@@ -7,7 +7,7 @@
 
 <!-- ========================= HTML -->
 <Section title="Experiences">
-	{#each experiences as experience, index}
+	{#each experiences as experience}
 		<ExperienceThumbnail
 			company={experience.company}
 			location={experience.location}

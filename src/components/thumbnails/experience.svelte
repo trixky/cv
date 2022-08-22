@@ -21,10 +21,10 @@
 	</div>
 	<p>asdfasdfasfdsdf sdf sdf sf sdfs f sfd sdf sdf sf sdfs df sdf sdfs dfs dfs df sdf</p>
 	<ul class="mt-3">
-		{#each skills as skill, index (index)}
+		{#each skills as skill}
 			<li class="inline-block">
 				<p class="italic text-neutral-400 inline-block text-sm">
-					#{skill.name}&nbsp&nbsp
+					#{skill.name}&nbsp;&nbsp;
 				</p>
 			</li>
 		{/each}

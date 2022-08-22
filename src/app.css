@@ -8,11 +8,12 @@
     --thumbnail-margin: 8px;
     --thumbnail-margin-double: calc(var(--thumbnail-margin) * 2);
     --thumbnail-width: 224px;
-    --main-width: calc(var(--thumbnail-width) * 3 + var(--thumbnail-margin) * 8);
+    --main-mdd-width: calc(var(--thumbnail-width) * 2 + var(--thumbnail-margin) * 6);
+    --main-lg-width: calc(var(--thumbnail-width) * 3 + var(--thumbnail-margin) * 8);
 }
 
 body {
-    background: linear-gradient(319deg, #723939, #55cfff, #475948);
+    background: linear-gradient(319deg, #4d1212, #5ad0ff, #09284d);
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 30s ease infinite;

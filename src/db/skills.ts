@@ -1,5 +1,5 @@
 import type Skill from '$lib/skill';
-import skill_kinds from '$db/skill_kinds';
+import skill_kinds from '$db/kinds/skills';
 
 export default <Skill[]>[
 	// ----------------------------- languages
