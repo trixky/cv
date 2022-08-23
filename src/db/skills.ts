@@ -168,5 +168,17 @@ export default <Skill[]>[
 		name: 'grpc',
 		note: 4,
 		kind: skill_kinds[4]
+	},
+	{
+		image: undefined,
+		name: 'numpy',
+		note: 3,
+		kind: skill_kinds[4]
+	},
+	{
+		image: undefined,
+		name: 'matplotlib',
+		note: 3,
+		kind: skill_kinds[4]
 	}
 ];

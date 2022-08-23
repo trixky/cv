@@ -24,7 +24,7 @@
 			{formation.location} | {months[formation.date.getMonth()]}
 			{formation.date.getFullYear()}{formation.in_progress ? ' - now' : ''}
 		</p>
-		<p class="mt-3">{formation.description}</p>
+		<p class="mt-2">{formation.description}</p>
 		{#if formation.extra != undefined}
 			<p class="text-sm text-neutral-400 mt-2">{formation.extra}</p>
 		{/if}

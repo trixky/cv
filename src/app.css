@@ -45,13 +45,3 @@ h3 {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
-/* ---------------- scroll bar */
-/* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
-*::-webkit-scrollbar {
-    display: none;
-}
-* {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
