@@ -1,1 +1,1 @@
-export default ['web', 'algorithm', 'tool', 'game', 'security'];
+export default ['web/mobile', 'algorithm/system', 'graphic/misc'];

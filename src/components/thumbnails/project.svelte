@@ -4,19 +4,24 @@
 	import projects from '$db/projects';
 
 	export let kind: string;
+
+	$: filtered_projects = projects.filter((project) => project.kind === kind);
 </script>
 
 <!-- ========================= HTML -->
-<Thumbnail>
-	<div class="mb-3">
-		<h3>{kind}</h3>
-	</div>
-	<ul class="mt-3">
-		{#each projects as project}
-			{#if project.kind === kind}
+{#if filtered_projects.length > 0}
+	<Thumbnail>
+		<div class="mb-3">
+			<h3>{kind}</h3>
+		</div>
+		<ul class="mt-3">
+			{#each filtered_projects as project}
 				<li class="flex justify-between">
 					<a href={project.link} target="_blank">
-						<p class="inline-block hover:underline cursor-pointer">
+						<p
+							class:truncate-name={project.tag != undefined}
+							class="hover:underline cursor-pointer"
+						>
 							{project.name}
 						</p>
 					</a>
@@ -26,13 +31,20 @@
 							target="_blank"
 							disabled={project.tag.link === undefined}
 						>
-							<p class="italic text-neutral-400 hover:underline">
+							<p class="italic text-neutral-400 text-sm hover:underline">
 								#{project.tag.label}
 							</p>
 						</a>
 					{/if}
 				</li>
-			{/if}
-		{/each}
-	</ul>
-</Thumbnail>
+			{/each}
+		</ul>
+	</Thumbnail>
+{/if}
+
+<!-- ========================= CSS -->
+<style lang="postcss">
+	.truncate-name {
+		@apply max-w-[140px] truncate;
+	}
+</style>
