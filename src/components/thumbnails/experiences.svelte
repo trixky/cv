@@ -9,12 +9,7 @@
 {#if experiences.length > 0}
 	<Section title={'Experience' + (experiences.length > 1 ? 's' : '')}>
 		{#each experiences as experience}
-			<ExperienceThumbnail
-				company={experience.company}
-				location={experience.location}
-				link={experience.link}
-				skills={experience.skills}
-			/>
+			<ExperienceThumbnail {experience} />
 		{/each}
 	</Section>
 {/if}

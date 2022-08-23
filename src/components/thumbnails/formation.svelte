@@ -2,27 +2,13 @@
 <script lang="ts">
 	import type Formation from '$lib/formation';
 	import Thumbnail from '$components/containers/thumbnail.svelte';
-
-	const months = [
-		'January',
-		'February',
-		'March',
-		'April',
-		'May',
-		'June',
-		'July',
-		'August',
-		'September',
-		'October',
-		'November',
-		'December'
-	];
+	import months from '$db/constants/months';
 
 	export let formation: Formation;
 </script>
 
 <!-- ========================= HTML -->
-<Thumbnail>
+<Thumbnail background_url={formation.image}>
 	<div>
 		<div class="">
 			<a href={formation.link} target="_blank">

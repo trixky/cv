@@ -23,12 +23,12 @@ export default <Project[]>[
 	},
 	{
 		name: 'tetris',
-		link: 'https://github.com/trixky/hypertube',
+		link: 'https://github.com/Glagan/42-red-tetris',
 		image: 'https://github.com/Glagan/42-red-tetris/raw/master/resources/themes.gif',
 		kind: project_kinds[0],
 		tag: {
 			label: 'online',
-			link: 'https://github.com/Glagan/42-red-tetris'
+			link: 'https://tetris.trixky.com'
 		}
 	}
 ];

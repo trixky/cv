@@ -7,4 +7,5 @@ export default interface Formation {
 	link: string | undefined;
 	description: string;
 	extra: string | undefined;
+	image: string | undefined;
 }

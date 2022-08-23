@@ -11,6 +11,7 @@ export default <Formation[]>[
 		description:
 			'42 is a future-proof computer science training to educate the next generation of software engineers.',
 		extra:
-			'The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.'
+			'The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.',
+		image: undefined
 	}
 ];
