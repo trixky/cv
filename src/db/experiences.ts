@@ -1,18 +1,17 @@
 import type Experience from '$lib/experience';
-import type Skill from '$lib/skill';
 
 export default <Experience[]>[
 	{
-		company: 'Zaion',
-		job: 'Back-end developer',
-		contract: 'Stage',
-		start: new Date(2020, 6),
-		end: new Date(2020, 10),
+		company: 'AnotherBrain',
+		job: 'AI developer',
+		contract: 'Freelance',
+		start: new Date(2021, 10),
+		end: new Date(2022, 2),
 		description:
-			"Zaion révolutionne l'expérience client par la voix et l'intelligence artificielle grâce à ses Callbot, Chatbot, Voicebot et Messagingbot.",
+			"AnotherBrain développe une nouvelle génération d’intelligence artificielle qu'est l’Organic AI™.",
 		link: 'https://zaion.ai/',
 		location: 'Paris',
-		skills: ['express', 'mongodb', 'redis', 'socket.io'],
+		skills: ['python', 'numpy', 'matplotlib'],
 		image: undefined
 	},
 	{
@@ -29,16 +28,16 @@ export default <Experience[]>[
 		image: undefined
 	},
 	{
-		company: 'AnotherBrain',
-		job: 'AI developer',
-		contract: 'Freelance',
-		start: new Date(2021, 10),
-		end: new Date(2022, 2),
+		company: 'Zaion',
+		job: 'Back-end developer',
+		contract: 'Stage',
+		start: new Date(2020, 6),
+		end: new Date(2020, 10),
 		description:
-			"AnotherBrain développe une nouvelle génération d’intelligence artificielle qu'est l’Organic AI™.",
+			"Zaion révolutionne l'expérience client par la voix et l'intelligence artificielle.",
 		link: 'https://zaion.ai/',
 		location: 'Paris',
-		skills: ['python', 'numpy', 'matplotlib'],
+		skills: ['express', 'mongodb', 'redis', 'socket.io'],
 		image: undefined
 	}
 ];

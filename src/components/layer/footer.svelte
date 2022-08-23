@@ -4,9 +4,12 @@
 </script>
 
 <!-- ========================= HTML -->
-<footer class="relative m-auto w-fit mt-8 mb-8">
+<footer class="relative m-auto w-fit mt-6 mb-1">
 	<Extras />
 </footer>
+&nbsp;
+
+
 
 <!-- ========================= CSS -->
 <style lang="postcss">

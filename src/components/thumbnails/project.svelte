@@ -19,21 +19,21 @@
 				<li class="flex justify-between">
 					<a href={project.link} target="_blank">
 						<p
-							class:truncate-name={project.tag != undefined}
+							class:truncate-name={project.link != undefined}
 							class="hover:underline cursor-pointer"
 						>
 							{project.name}
 						</p>
 					</a>
-					{#if project.tag != undefined}
-						<a
-							href={project.tag.link || '#'}
-							target="_blank"
-							disabled={project.tag.link === undefined}
-						>
-							<p class="italic text-neutral-400 text-sm hover:underline">
-								#{project.tag.label}
-							</p>
+					{#if project.online != undefined}
+						<a href={project.online} target="_blank">
+							<img
+								width="16px"
+								height="16px"
+								src="/icons/link.svg"
+								class="invert opacity-60 hover:opacity-100 transition-all translate-y-[3px]"
+								alt="link"
+							/>
 						</a>
 					{/if}
 				</li>
@@ -45,6 +45,6 @@
 <!-- ========================= CSS -->
 <style lang="postcss">
 	.truncate-name {
-		@apply max-w-[140px] truncate;
+		@apply max-w-[170px] truncate;
 	}
 </style>

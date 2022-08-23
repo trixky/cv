@@ -3,10 +3,5 @@ export default interface Project {
 	link: string;
 	image: string | undefined;
 	kind: string;
-	tag:
-		| {
-				label: string;
-				link: string | undefined;
-		  }
-		| undefined;
+	online: string | undefined;
 }
