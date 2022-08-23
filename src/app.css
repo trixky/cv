@@ -21,11 +21,7 @@ body {
     animation: AnimationName 30s ease infinite;
 }
 
-h1 {
-    @apply text-4xl;
-}
-
-h2 {
+h1, h2 {
     @apply text-3xl;
 }
 

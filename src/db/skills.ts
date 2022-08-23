@@ -155,5 +155,18 @@ export default <Skill[]>[
 		name: 'prometheus',
 		note: 2,
 		kind: skill_kinds[3]
+	},
+	// ----------------------------- misc
+	{
+		image: undefined,
+		name: 'socket.io',
+		note: 4,
+		kind: skill_kinds[4]
+	},
+	{
+		image: undefined,
+		name: 'grpc',
+		note: 4,
+		kind: skill_kinds[4]
 	}
 ];

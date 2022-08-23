@@ -1,13 +1,13 @@
 <!-- ========================= SCRIPT -->
 <script lang="ts">
-	import ThumbnailContainer from '$components/thumbnails/container.svelte';
+	import Thumbnail from '$components/containers/thumbnail.svelte';
 	import skills from '$db/skills';
 
 	export let kind: string;
 </script>
 
 <!-- ========================= HTML -->
-<ThumbnailContainer>
+<Thumbnail>
 	<div class="mb-3">
 		<h3>{kind}</h3>
 	</div>
@@ -27,4 +27,4 @@
 			{/if}
 		{/each}
 	</ul>
-</ThumbnailContainer>
+</Thumbnail>

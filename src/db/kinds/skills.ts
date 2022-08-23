@@ -1,1 +1,1 @@
-export default ['languages', 'frameworks', 'databases', 'archi/devops'];
+export default ['languages', 'frameworks', 'databases', 'archi/devops', 'misc'];
