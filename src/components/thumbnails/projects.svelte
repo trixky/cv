@@ -6,8 +6,10 @@
 </script>
 
 <!-- ========================= HTML -->
-<Section title="Projects">
-	{#each project_kinds as kind}
-		<Projecthumbnail {kind} />
-	{/each}
-</Section>
+{#if project_kinds.length > 0}
+	<Section title="Projects">
+		{#each project_kinds as kind}
+			<Projecthumbnail {kind} />
+		{/each}
+	</Section>
+{/if}

@@ -6,6 +6,6 @@
 
 <!-- ========================= HTML -->
 <Header />
-<main class="m-auto px-5 xs:px-0 xs:w-[var(--main-mdd-width)] mdd:w-[var(--main-lg-width)]">
+<main class="m-auto mb-10 px-5 xs:px-0 xs:w-[var(--main-mdd-width)] mdd:w-[var(--main-lg-width)]">
 	<slot />
 </main>

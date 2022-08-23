@@ -6,8 +6,10 @@
 </script>
 
 <!-- ========================= HTML -->
-<Section title="Skills">
-	{#each skill_kinds as kind}
-		<SkillKindThumbnail {kind} />
-	{/each}
-</Section>
+{#if skill_kinds.length > 0}
+	<Section title="Skills">
+		{#each skill_kinds as kind}
+			<SkillKindThumbnail {kind} />
+		{/each}
+	</Section>
+{/if}
