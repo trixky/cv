@@ -12,13 +12,8 @@
     --main-lg-width: calc(var(--thumbnail-width) * 3 + var(--thumbnail-margin) * 8);
 }
 
-body {
-    background: linear-gradient(319deg, #4d1212, #5ad0ff, #09284d);
-    background-size: 600% 600%;
-
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+html {
+    @apply bg-blue-300;
 }
 
 h1, h2 {
@@ -29,19 +24,27 @@ h3 {
     @apply text-2xl;
 }
 
-/* https://www.gradient-animator.com/ */
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+scrollbar-width: auto;
+scrollbar-color: white white;
 }
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 4px;
 }
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+
+*::-webkit-scrollbar-track {
+background: rgba(0, 0, 0, 0);
+opacity: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: white;
+opacity: 0;
+
+border-radius: 10px;
+border: 0px solid white;
 }
