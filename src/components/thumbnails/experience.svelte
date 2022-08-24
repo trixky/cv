@@ -11,7 +11,9 @@
 <Thumbnail background_url={experience.image}>
 	<div class="mb-4">
 		<a href={experience.link} target="_blank">
-			<h3 class="truncate">{experience.company}</h3>
+			<h3 class="inline-block truncate first-letter:uppercase hover:underline underline-offset-2">
+				{experience.company}
+			</h3>
 		</a>
 		<p class="text-neutral-200">{experience.job}</p>
 		<p class="text-neutral-400 text-sm">

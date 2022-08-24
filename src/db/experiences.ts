@@ -8,7 +8,7 @@ export default <Experience[]>[
 		start: new Date(2021, 10),
 		end: new Date(2022, 2),
 		description:
-			"AnotherBrain développe une nouvelle génération d’intelligence artificielle qu'est l’Organic AI™.",
+			'AnotherBrain develops a new generation of artificial intelligence that is Organic AI™.',
 		link: 'https://zaion.ai/',
 		location: 'Paris',
 		skills: ['python', 'numpy', 'matplotlib'],
@@ -21,7 +21,7 @@ export default <Experience[]>[
 		start: new Date(2021, 0),
 		end: new Date(2021, 3),
 		description:
-			"Optimisation et verdissement de la flotte automobile autour d'une plateforme SaaS de pilotage et de conseils.",
+			'Optimization and management of the car fleet around a SaaS platform for management and advice.',
 		link: 'https://www.optimum-automotive.com/',
 		location: 'Aix-en-Provence',
 		skills: ['react native'],
@@ -30,11 +30,11 @@ export default <Experience[]>[
 	{
 		company: 'Zaion',
 		job: 'Back-end developer',
-		contract: 'Stage',
+		contract: 'Internship',
 		start: new Date(2020, 6),
 		end: new Date(2020, 10),
 		description:
-			"Zaion révolutionne l'expérience client par la voix et l'intelligence artificielle.",
+			'Zaion revolutionizes the customer experience through voice and artificial intelligence.',
 		link: 'https://zaion.ai/',
 		location: 'Paris',
 		skills: ['express', 'mongodb', 'redis', 'socket.io'],

@@ -12,12 +12,12 @@
 	<div>
 		<div class="">
 			<a href={formation.link} target="_blank">
-				<h3 class="inline-block">{formation.label}</h3>
+				<h3 class="inline-block first-letter:uppercase hover:underline underline-offset-2">
+					{formation.label}
+				</h3>
 			</a>
 			{#if formation.details != undefined}
-				<p class="text-neutral-400 text-sm inline-block ml-1">
-					{formation.details}
-				</p>
+				<p class="text-neutral-400 text-sm inline-block">{formation.details}</p>
 			{/if}
 		</div>
 		<p class="text-sm text-neutral-400">

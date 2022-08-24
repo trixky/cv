@@ -4,7 +4,7 @@
 </script>
 
 <!-- ========================= HTML -->
-<section class="relative max-w-[360px] xs:max-w-none m-auto">
+<section class="relative max-w-[360px] xs:max-w-none m-auto mt-4">
 	<div class="px-[var(--thumbnail-margin-double)]">
 		<h2>{title}</h2>
 		<hr class="mt-3" />

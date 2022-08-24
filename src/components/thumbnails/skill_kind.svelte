@@ -14,13 +14,13 @@
 <!-- ========================= HTML -->
 <Thumbnail>
 	<div class="mb-3">
-		<h3>{kind}</h3>
+		<h3 class="first-letter:uppercase">{kind}</h3>
 	</div>
 	<ul class="mt-3">
 		{#each skills as skill}
 			{#if skill.kind === kind}
 				<li class="flex justify-between">
-					<p class="inline-block hover:underline cursor-pointer">
+					<p class="inline-block">
 						{skill.name}
 					</p>
 					<div class="text-left -translate-y-[2px]">

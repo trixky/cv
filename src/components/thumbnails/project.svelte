@@ -12,9 +12,9 @@
 {#if filtered_projects.length > 0}
 	<Thumbnail>
 		<div class="mb-3">
-			<h3>{kind}</h3>
+			<h3 class="first-letter:uppercase">{kind}</h3>
 		</div>
-		<ul class="mt-3">
+		<ul>
 			{#each filtered_projects as project}
 				<li class="flex justify-between">
 					<a href={project.link} target="_blank">

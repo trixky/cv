@@ -1,1 +1,1 @@
-export default ['web/mobile', 'algorithm/system', 'graphic/misc'];
+export default ['Web/Mobile', 'Algo/System', 'Graphic/Misc'];
