@@ -10,12 +10,12 @@
 <!-- ========================= HTML -->
 <Thumbnail background_url={formation.image}>
 	<div>
-		<div class="">
-			<a href={formation.link} target="_blank">
-				<h3 class="inline-block first-letter:uppercase hover:underline underline-offset-2">
+		<div>
+			<h3 class="inline-block first-letter:uppercase hover:underline underline-offset-2">
+				<a href={formation.link} target="_blank">
 					{formation.label}
-				</h3>
-			</a>
+				</a>
+			</h3>
 			{#if formation.details != undefined}
 				<p class="text-neutral-400 text-sm inline-block">{formation.details}</p>
 			{/if}
