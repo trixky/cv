@@ -56,22 +56,22 @@ export default <Project[]>[
 		kind: 'Web/Mobile',
 		online: undefined
 	},
-	{
-		name: 'burger_composer',
-		link: 'https://github.com/trixky/burger_composer',
-		image:
-			'https://camo.githubusercontent.com/fd15c687f214b7aa49988d36e148b0ba760f73516e2850ffbf9488e3ba424290/68747470733a2f2f692e6962622e636f2f4d506a68596e772f3466377a31762e676966',
-		kind: 'Web/Mobile',
-		online: undefined
-	},
-	{
-		name: 'markdown_editor',
-		link: 'https://github.com/trixky/markdown_editor',
-		image:
-			'https://camo.githubusercontent.com/077535ae2439959f5c9677b68cb7a1a93b5f2e4992491f91f104407586d6a09b/68747470733a2f2f692e6962622e636f2f795277535844522f6d61726b646f776e2d656469746f722d73637265656e73686f742d312e706e67',
-		kind: 'Web/Mobile',
-		online: undefined
-	},
+	// {
+	// 	name: 'burger_composer',
+	// 	link: 'https://github.com/trixky/burger_composer',
+	// 	image:
+	// 		'https://camo.githubusercontent.com/fd15c687f214b7aa49988d36e148b0ba760f73516e2850ffbf9488e3ba424290/68747470733a2f2f692e6962622e636f2f4d506a68596e772f3466377a31762e676966',
+	// 	kind: 'Web/Mobile',
+	// 	online: undefined
+	// },
+	// {
+	// 	name: 'markdown_editor',
+	// 	link: 'https://github.com/trixky/markdown_editor',
+	// 	image:
+	// 		'https://camo.githubusercontent.com/077535ae2439959f5c9677b68cb7a1a93b5f2e4992491f91f104407586d6a09b/68747470733a2f2f692e6962622e636f2f795277535844522f6d61726b646f776e2d656469746f722d73637265656e73686f742d312e706e67',
+	// 	kind: 'Web/Mobile',
+	// 	online: undefined
+	// },
 	// ----------------------------- back-end
 	{
 		name: 'fizzbuzz',
