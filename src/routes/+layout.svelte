@@ -21,7 +21,7 @@
 <style lang="postcss">
 	/* ===== Background ===== */
 	.titi {
-		background: linear-gradient(143deg, #497cff, #66e3ff, #f04c4c);
+		background: linear-gradient(143deg, #66e3ff, #497cff, rgb(240, 185, 76));
 		background-size: 600% 600%;
 
 		-webkit-animation: AnimationName 38s ease infinite;
