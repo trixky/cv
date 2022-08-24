@@ -1,6 +1,7 @@
 <!-- ========================= SCRIPT -->
 <script lang="ts">
 	export let title: string;
+	export let stretch: boolean = false;
 </script>
 
 <!-- ========================= HTML -->
@@ -10,7 +11,9 @@
 		<hr class="mt-3" />
 	</div>
 	<div
-		class="px-[var(--thumbnail-margin)] flex flex-col content-center xs:flex-row items-start flex-wrap border-x-0 py-[15px]"
+		class="px-[var(--thumbnail-margin)] flex flex-col content-center xs:flex-row {stretch
+			? 'items-stretch'
+			: 'items-start'} flex-wrap border-x-0 py-[15px]"
 	>
 		<slot />
 	</div>

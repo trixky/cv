@@ -7,7 +7,7 @@
 
 <!-- ========================= HTML -->
 {#if experiences.length > 0}
-	<Section title={'Experience' + (experiences.length > 1 ? 's' : '')}>
+	<Section title={'Experience' + (experiences.length > 1 ? 's' : '')} stretch>
 		{#each experiences as experience}
 			<ExperienceThumbnail {experience} />
 		{/each}
