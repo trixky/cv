@@ -4,7 +4,7 @@
 </script>
 
 <!-- ========================= HTML -->
-<header class="relative m-auto w-fit mt-28 mb-12">
+<header class="relative m-auto w-fit mb-12">
 	<div class="w-full absolute -top-16">
 		<div class="profile-picture m-auto" />
 	</div>

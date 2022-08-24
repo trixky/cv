@@ -32,34 +32,3 @@ h3 {
     scrollbar-width: none;  /* Firefox */
 }
 
-/* ===== Background ===== */
-html {
-	background: linear-gradient(-45deg, #d76542 10%, #3c4de7, #6be9f7, #3dac60);
-	background-size: 1200% 1200%;
-	animation: gradient 20s ease infinite;
-	height: 140vh;
-}
-
-@media (max-width: 820px) {
-    html {
-            background-size: 1600% 1600%;
-        }
-    }
-
-@media (max-width: 550px) {
-html {
-	    background-size: 3200% 3200%;
-    }
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
