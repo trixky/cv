@@ -49,13 +49,6 @@ export default <Project[]>[
 		online: 'https://volte-face-mhtqk99tq-trixky.vercel.app/'
 	},
 	{
-		name: 'curriculum',
-		link: 'https://github.com/trixky/curriculum',
-		image: undefined,
-		kind: 'Web/Mobile',
-		online: 'https://curriculum.trixky.com/'
-	},
-	{
 		name: 'slack_dev_clone',
 		link: 'https://github.com/trixky/slack_dev_clone',
 		image:
@@ -169,6 +162,13 @@ export default <Project[]>[
 		online: undefined
 	},
 	// ----------------------------- misc
+	{
+		name: 'curriculum',
+		link: 'https://github.com/trixky/curriculum',
+		image: undefined,
+		kind: 'Graphic/Misc',
+		online: 'https://curriculum.trixky.com/'
+	},
 	{
 		name: 'typeracer',
 		link: 'https://github.com/trixky/typeracer',
