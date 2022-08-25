@@ -1,6 +1,6 @@
-# curriculum
+# cv
 
-My resume [online](https://curriculum.trixky.com) !
+My cv is [online](https://curriculum.trixky.com) !
 
 ## Usage
 
