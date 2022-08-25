@@ -5,6 +5,6 @@
 
 <!-- ========================= HTML -->
 <footer class="relative m-auto w-fit mt-6 mb-1">
-	<Extras />
+	<Extras reverse />
 </footer>
 &nbsp;

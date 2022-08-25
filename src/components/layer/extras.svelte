@@ -3,6 +3,8 @@
 	import external_links from '$db/external_links';
 	import { fly } from 'svelte/transition';
 
+	export let reverse = false;
+	$: _reverse = reverse ? -1 : 1;
 	let copied = false;
 	let copied_nbr = 0;
 
@@ -35,9 +37,9 @@
 		/>
 		{#if copied}
 			<p
-				in:fly={{ y: 5, duration: 300 }}
-				out:fly={{ y: 5, duration: 2000 }}
-				class="absolute -left-[6px] -bottom-[22px] text-sm"
+				in:fly={{ y: 3 * _reverse, duration: 300 }}
+				out:fly={{ y: -3 * _reverse, duration: 2000 }}
+				class="absolute -left-[6px] {reverse ? '-top-[22px]' : '-bottom-[22px]'} text-sm"
 			>
 				copied
 			</p>
