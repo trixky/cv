@@ -1,6 +1,20 @@
 <!-- ========================= SCRIPT -->
 <script lang="ts">
 	import external_links from '$db/external_links';
+	import { fly } from 'svelte/transition';
+
+	let copied = false;
+	let copied_nbr = 0;
+
+	function handleEmail() {
+		const current_copied_nbr = ++copied_nbr;
+
+		copied = true;
+		navigator.clipboard.writeText(external_links.email);
+		setTimeout(() => {
+			if (current_copied_nbr === copied_nbr) copied = false;
+		}, 2000);
+	}
 </script>
 
 <!-- ========================= HTML -->
@@ -11,16 +25,29 @@
 	<a href={external_links.github} target="_blank">
 		<img width="30px" src="/icons/github.svg" alt="github" />
 	</a>
-	<img width="30px" class="hover:cursor-not-allowed" src="/icons/email.svg" alt="email" />
+	<div class="relative">
+		<img
+			width="30px"
+			on:click={handleEmail}
+			class="hover:cursor-pointer"
+			src="/icons/email.svg"
+			alt="email"
+		/>
+		{#if copied}
+			<p
+				in:fly={{ y: 5, duration: 300 }}
+				out:fly={{ y: 5, duration: 2000 }}
+				class="absolute -left-[6px] -bottom-[22px] text-sm"
+			>
+				copied
+			</p>
+		{/if}
+	</div>
 </div>
 
 <!-- ========================= CSS -->
 <style lang="postcss">
 	img {
-		@apply invert opacity-60 transition-all;
-	}
-
-	a > img {
-		@apply hover:opacity-100;
+		@apply invert opacity-60 hover:opacity-100 transition-all;
 	}
 </style>
