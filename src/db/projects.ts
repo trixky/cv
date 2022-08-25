@@ -138,8 +138,8 @@ export default <Project[]>[
 		online: undefined
 	},
 	{
-		name: 'memory_handler',
-		link: 'https://github.com/trixky/memory_handler',
+		name: 'memory',
+		link: 'https://github.com/trixky/memory',
 		image:
 			'https://camo.githubusercontent.com/948c7b2224d11f3dac2ea7cee82962fcafccb536060eaa9e3a2efbf772bf877c/68747470733a2f2f692e6962622e636f2f365974736b56732f436170747572652d642d6372616e2d64652d323032302d30352d30352d31382d32332d30382d312e706e67',
 		kind: 'Algo/System',
@@ -163,11 +163,11 @@ export default <Project[]>[
 	},
 	// ----------------------------- misc
 	{
-		name: 'curriculum',
-		link: 'https://github.com/trixky/curriculum',
+		name: 'cv',
+		link: 'https://github.com/trixky/cv',
 		image: undefined,
 		kind: 'Graphic/Misc',
-		online: 'https://curriculum.trixky.com/'
+		online: 'https://cv.trixky.com/'
 	},
 	{
 		name: 'typeracer',
