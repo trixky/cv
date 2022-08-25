@@ -37,8 +37,8 @@
 		/>
 		{#if copied}
 			<p
-				in:fly={{ y: 3 * _reverse, duration: 300 }}
-				out:fly={{ y: -3 * _reverse, duration: 2000 }}
+				in:fly={{ y: 2 * _reverse, duration: 300 }}
+				out:fly={{ y: -1 * _reverse, duration: 2000 }}
 				class="absolute -left-[6px] {reverse ? '-top-[22px]' : '-bottom-[22px]'} text-sm"
 			>
 				copied
