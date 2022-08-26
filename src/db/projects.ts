@@ -185,6 +185,13 @@ export default <Project[]>[
 	},
 	// ----------------------------- mobile
 	{
+		name: 'todo_app',
+		link: 'https://github.com/trixky/todo_app',
+		image: 'https://github.com/trixky/todo_app/raw/main/.demo/demo.gif?raw=true',
+		kind: 'Web/Mobile',
+		online: undefined
+	},
+	{
 		name: 'corporate_social_app',
 		link: 'https://github.com/trixky/corporate_social_app',
 		image: 'https://raw.githubusercontent.com/trixky/corporate_social_app/master/demo/screen_1.png',
