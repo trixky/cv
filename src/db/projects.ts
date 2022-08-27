@@ -192,6 +192,13 @@ export default <Project[]>[
 		online: undefined
 	},
 	{
+		name: 'nativeflix_app',
+		link: 'https://github.com/trixky/nativeflix_app',
+		image: 'https://github.com/trixky/nativeflix_app/raw/main/.demo/demo.gif?raw=true',
+		kind: 'Web/Mobile',
+		online: undefined
+	},
+	{
 		name: 'corporate_social_app',
 		link: 'https://github.com/trixky/corporate_social_app',
 		image: 'https://raw.githubusercontent.com/trixky/corporate_social_app/master/demo/screen_1.png',
