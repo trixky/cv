@@ -87,6 +87,13 @@ export default <Project[]>[
 		kind: 'Web/Mobile',
 		online: undefined
 	},
+	{
+		name: 'notes',
+		link: 'https://github.com/trixky/notes',
+		image: undefined,
+		kind: 'Web/Mobile',
+		online: undefined
+	},
 	// ----------------------------- algorithm
 	{
 		name: 'inference_engine',
@@ -184,6 +191,13 @@ export default <Project[]>[
 		online: undefined
 	},
 	// ----------------------------- mobile
+	{
+		name: 'smsaes',
+		link: 'https://github.com/trixky/smsaes',
+		image: 'https://github.com/trixky/smsaes/blob/main/.demo/icon.png?raw=true',
+		kind: 'Web/Mobile',
+		online: 'https://github.com/trixky/smsaes/releases/tag/v1.0.0'
+	},
 	{
 		name: 'todo_app',
 		link: 'https://github.com/trixky/todo_app',
