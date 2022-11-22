@@ -96,6 +96,20 @@ export default <Project[]>[
 	},
 	// ----------------------------- algorithm
 	{
+		name: 'gomoku',
+		link: 'https://github.com/trixky/gomoku',
+		image: undefined,
+		kind: 'Algo/System',
+		online: 'https://gomoku.trixky.com'
+	},
+	{
+		name: 'rubik',
+		link: 'https://github.com/trixky/rubik',
+		image: undefined,
+		kind: 'Algo/System',
+		online: 'https://rubik.trixky.com'
+	},
+	{
 		name: 'inference_engine',
 		link: 'https://github.com/trixky/inference_engine',
 		image:
@@ -175,6 +189,13 @@ export default <Project[]>[
 		image: undefined,
 		kind: 'Graphic/Misc',
 		online: 'https://cv.trixky.com/'
+	},
+	{
+		name: 'log_daemon',
+		link: 'https://github.com/trixky/log_daemon',
+		image: undefined,
+		kind: 'Graphic/Misc',
+		online: undefined
 	},
 	{
 		name: 'typeracer',

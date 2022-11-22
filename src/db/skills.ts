@@ -50,6 +50,12 @@ export default <Skill[]>[
 		note: 2,
 		kind: 'Languages'
 	},
+	{
+		image: undefined,
+		name: 'java',
+		note: 1,
+		kind: 'Languages'
+	},
 	// {
 	// 	image: undefined,
 	// 	name: 'asm',
@@ -85,6 +91,12 @@ export default <Skill[]>[
 		image: '/static/skills/frameworks/tailwind.png',
 		name: 'tailwind',
 		note: 5,
+		kind: 'Frameworks'
+	},
+	{
+		image: undefined,
+		name: 'nativescript',
+		note: 3,
 		kind: 'Frameworks'
 	},
 	{
@@ -175,6 +187,12 @@ export default <Skill[]>[
 	},
 	{
 		image: undefined,
+		name: 'pm2',
+		note: 4,
+		kind: 'Archi/Devops'
+	},
+	{
+		image: undefined,
 		name: 'argocd',
 		note: 2,
 		kind: 'Archi/Devops'
@@ -201,12 +219,6 @@ export default <Skill[]>[
 	{
 		image: undefined,
 		name: 'grpc',
-		note: 4,
-		kind: 'Misc'
-	},
-	{
-		image: undefined,
-		name: 'pm2',
 		note: 4,
 		kind: 'Misc'
 	},
